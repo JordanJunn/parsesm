@@ -1,0 +1,15 @@
+[package]
+name = "parsesm"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ansi_term = "0.12.1"
+bytes = "1.1.0"
+reqwest = { version = "0.11.10", features = ["native-tls"] }
+scraper = "0.13.0"
+select = "0.5.0"
+sourcemap = "6.0.2"
+tokio = { version = "1.18.2", features = ["full"] }
